@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+
+  <WorkGiverDef>
+    <defName>NurseRescue</defName>
+    <label>rescue downed allies to bed</label>
+    <giverClass>WorkGiver_RescueDowned</giverClass>
+    <workType>Nursing</workType>
+    <verb>rescue</verb>
+    <gerund>rescuing</gerund>
+    <priorityInType>90</priorityInType>
+    <directOrderable>false</directOrderable>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>NurseFeedHumanlikes</defName>
+    <label>feed patients</label>
+    <giverClass>WorkGiver_FeedPatient</giverClass>
+    <workType>Nursing</workType>
+    <verb>feed</verb>
+    <gerund>feeding</gerund>
+    <priorityInType>60</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+    <feedHumanlikesOnly>true</feedHumanlikesOnly>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>NurseFeedAnimals</defName>
+    <label>feed animals</label>
+    <giverClass>WorkGiver_FeedPatient</giverClass>
+    <workType>Nursing</workType>
+    <verb>feed</verb>
+    <gerund>feeding</gerund>
+    <priorityInType>30</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+    <feedAnimalsOnly>true</feedAnimalsOnly>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>NurseToBedToOperate</defName>
+    <label>take patients to bed for operations</label>
+    <giverClass>WorkGiver_TakeToBedToOperate</giverClass>
+    <workType>Nursing</workType>
+    <priorityInType>5</priorityInType>
+    <verb>take to operate</verb>
+    <gerund>taking to operate</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>NurseVisitSickPawn</defName>
+    <label>visit sick people</label>
+    <giverClass>WorkGiver_VisitSickPawn</giverClass>
+    <workType>Nursing</workType>
+    <priorityInType>3</priorityInType>
+    <verb>visit</verb>
+    <gerund>visiting</gerund>
+  </WorkGiverDef>
+
+</WorkGivers>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorkTypeDefs>
+
+  <WorkTypeDef>
+    <defName>Nursing</defName>
+    <labelShort>Nurse</labelShort>
+    <pawnLabel>Nurse</pawnLabel>
+    <gerundLabel>Nursing</gerundLabel>
+    <description>Assist doctors in taking care of patients.</description>
+    <verb>Nurse</verb>
+    <naturalPriority>1290</naturalPriority>
+    <relevantSkills>
+      <li>Medicine</li>
+    </relevantSkills>
+    <workTags>
+      <li>Caring</li>
+    </workTags>
+  </WorkTypeDef>
+  
+</WorkTypeDefs>

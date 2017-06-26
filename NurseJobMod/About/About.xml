@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[A17] Nurse Job Mod</name>
+  <author>Bryan Bettis</author>
+  <description>Adds the nurse/doctors assistant job. which can do everything a doctor can except for performing surgeries and healing wounds/diseases (so they can carry patients to medical beds, feed them, converse with them, etc.)</description>
+  <targetVersion>0.17.1557</targetVersion>
+</ModMetaData>
